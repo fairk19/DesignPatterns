@@ -12,7 +12,7 @@
 
 -(Actions) inputAction:(BasicEmployee *) enemy;
 {
-    NSLog(@"Ходит игрок: %@\n", self.name);
+    NSLog(@"Ходит игрок: %@\n",  self.name);
     return getchar();
 }
 
